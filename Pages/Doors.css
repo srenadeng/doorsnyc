@@ -1,0 +1,74 @@
+::selection {
+	background: mediumblue;
+	color:#FAFAFA;
+  }
+body {
+	font-family: Avenir, Arial, sans-serif;
+	text-align:center;
+    background-color: #FAFAFA;
+} 
+p { font-size: 14px; }
+
+a { color:black; }
+a:hover {
+	filter: drop-shadow(8px 8px 8px mediumblue);
+}
+
+a:hover { color: mediumblue; }
+
+#title {
+	text-decoration: none;
+	position: fixed;
+	top: 0px;
+	left: 30px;
+} #nav {
+	padding-top: 16px;
+	position: fixed;
+	top: 0px;
+	right: 30px;
+	padding-left: 400px;
+}
+#nav li {
+	display:inline-block;
+	min-height:14px;
+	padding: 0px 12px 12px 12px;
+	font-weight: bold;
+} #description {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	text-align:justify;
+} img {
+	width: 170px;
+	height: 270px;
+	object-fit:cover;
+} #doorList {
+	list-style-type: none;
+	padding-left:10%;
+	padding-right:10%;
+	margin: 0;
+} #doorList li {
+	width: 170px;
+	min-height: 270px;
+	vertical-align: top;
+	padding: 30px 30px 30px 30px;
+	display: inline-block;
+	text-align: center;
+} #myInput {
+	font-family: Avenir, Arial;
+	font-size: 30px;
+	font-weight:bold;
+	padding: 8px;
+	border: 1px solid #ddd;
+    width: 30%;
+    background-color:#FAFAFA;
+	margin-top: 80px;
+	margin-bottom: 12px;
+} #myInput:hover {
+    filter: drop-shadow(6px 6px 6px mediumblue);
+} #myInput:focus {
+    filter: drop-shadow(6px 6px 6px mediumblue);
+    outline: none;
+    border: 1px solid #ddd;
+} 
