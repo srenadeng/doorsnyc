@@ -29,7 +29,9 @@ padding-left: 30px;}
     padding-right: 30px;
     padding-top: 20px;
     float: left;
-    filter:brightness(-100%);
+    filter:brightness(0);
+    -webkit-filter:brightness(0);
+    -moz-filter:brightness(0);
 }
 
 #HomeImage:hover {
